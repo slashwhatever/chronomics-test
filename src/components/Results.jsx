@@ -9,7 +9,6 @@ const Results = ({ testResults }) => {
         <tr>
           <th>Customer Name</th>
           <th>Test name</th>
-          <th>Concentration</th>
           <th>Result</th>
         </tr>
       </thead>
@@ -20,7 +19,6 @@ const Results = ({ testResults }) => {
             <tr>
               <td>{r.customerName}</td>
               <td>{r.testName}</td>
-              <td>{r.testConcentration}</td>
               <td>{r.resultLevel}</td>
             </tr>
           )
